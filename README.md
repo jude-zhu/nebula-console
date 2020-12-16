@@ -59,7 +59,7 @@ This repository contains the Nebula Graph Console for Nebula Graph 2.0. Nebula G
     And try `./nebula-console -e 'show hosts'` for the direct script mode.
     And try `./nebula-console -f demo.nGQL` for the script file mode.
 
-### Docker
+### Run with Docker
 
 Create a container:
 
