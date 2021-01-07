@@ -70,9 +70,11 @@ $ docker run --rm -ti --network nebula-docker-compose_nebula-net --entrypoint=/b
 To connect to your Nebula Graph services, run the follow command in the container:
 
 ```bash
-docker> nebula-console -u <user> -p <password> --address=graphd --port=9669
+docker> nebula-console -u <user> -p <password> --address=graphd --port=<port>
 ```
 
+- Default port for Nebula 2.0-rc1+ is `9669`;
+- Default port for Nebula 2.0-alph or 2.0-beta is `3699`
 
 ## Export mode for Nebula Graph Console
 
